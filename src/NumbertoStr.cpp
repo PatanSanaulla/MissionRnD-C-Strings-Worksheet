@@ -54,7 +54,7 @@ int tostri(char *str, int val, int start)
 			if (val > 10){ count = 1; }
 	count = count + start;
 	int siz = count;
-	while (val > 10 && count > start)
+	while (val > 10 && count > start-1)
 	{
 		int num = val % 10;
 		val = val / 10;
